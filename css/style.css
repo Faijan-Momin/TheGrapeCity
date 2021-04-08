@@ -554,7 +554,7 @@ footer{
 
   #slide-1{
     background-color: rgb(192, 192, 192);
-    background-image: url('/images/banner/banner-img-1.jpg');
+    background-image: url('images/banner/banner-img-1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -564,7 +564,7 @@ footer{
   
   #slide-2{
     background-color: rgb(173, 173, 173);
-    background-image: url('/images/banner/banner-img-2.jpg');
+    background-image: url('images/banner/banner-img-2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -575,7 +575,7 @@ footer{
   
   #slide-3{
     background-color: rgb(192, 192, 192);
-    background-image: url('/images/banner/banner-img-3.jpg');
+    background-image: url('images/banner/banner-img-3.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -754,21 +754,21 @@ footer{
 
   #slide-image-1{
       background-color: rgb(192, 192, 192);
-    background-image: url('/images/Rooms/Non_AC_Room.jpg');
+    background-image: url('images/Rooms/Non_AC_Room.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   #slide-image-2{
       background-color: rgb(192, 192, 192);
-    background-image: url('/images/Rooms/AC_Room.jpg');
+    background-image: url('images/Rooms/AC_Room.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   #slide-image-3{
       background-color: rgb(192, 192, 192);
-    background-image: url('/images/Rooms/dormitory.jpg');
+    background-image: url('images/Rooms/dormitory.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1008,7 +1008,7 @@ footer{
 
   #nearby-place-img-1{
     background-color: rgb(192, 192, 192);
-    background-image: url('/images/nearbyplaces/lenyadri.jpg');
+    background-image: url('images/nearbyplaces/lenyadri.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1016,7 +1016,7 @@ footer{
 
   #nearby-place-img-2{
     background-color: rgb(192, 192, 192);
-    background-image: url('/images/nearbyplaces/shivneri.jpg');
+    background-image: url('images/nearbyplaces/shivneri.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1024,7 +1024,7 @@ footer{
 
   #nearby-place-img-3{
     background-color: rgb(192, 192, 192);
-    background-image: url('/images/nearbyplaces/ozar.jpg');
+    background-image: url('images/nearbyplaces/ozar.jpg');
     background-position: -70px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1032,7 +1032,7 @@ footer{
 
   #nearby-place-img-4{
     background-color: rgb(192, 192, 192);
-    background-image: url('/images/nearbyplaces/MalshejGhat.jpg');
+    background-image: url('images/nearbyplaces/MalshejGhat.jpg');
     background-position: -130px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1040,14 +1040,14 @@ footer{
 
   #nearby-place-img-5{
     background-color: rgb(192, 192, 192);
-    background-image: url('/images/nearbyplaces/naneghat.jpg');
+    background-image: url('images/nearbyplaces/naneghat.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   #nearby-place-img-6{
     background-color: rgb(192, 192, 192);
-    background-image: url('/images/nearbyplaces/PimpalgaonDam.jpg');
+    background-image: url('images/nearbyplaces/PimpalgaonDam.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1221,7 +1221,7 @@ footer{
   }
   #veg-menu-dish-1{
     background-color: rgb(192, 192, 192);
-    background-image: url('/images/dishes/veg/aalu-tikka.jpg');
+    background-image: url('images/dishes/veg/aalu-tikka.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1229,7 +1229,7 @@ footer{
 
   #veg-menu-dish-2{
     background-color: rgb(192, 192, 192);
-    background-image: url('/images/dishes/veg/mix-veg-.jpg');
+    background-image: url('images/dishes/veg/mix-veg-.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1237,56 +1237,56 @@ footer{
 
   #veg-menu-dish-3{
     background-color: rgb(192, 192, 192);
-    background-image: url('/images/dishes/veg/paneer-angara.jpg');
+    background-image: url('images/dishes/veg/paneer-angara.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   #veg-menu-dish-4{
     background-color: rgb(192, 192, 192);
-    background-image: url('/images/dishes/veg/veg-kolhapuri.jpg');
+    background-image: url('images/dishes/veg/veg-kolhapuri.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   #veg-menu-dish-5{
     background-color: rgb(192, 192, 192);
-    background-image: url('/images/dishes/veg/paneer-tikka.jpg');
+    background-image: url('images/dishes/veg/paneer-tikka.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   #veg-menu-dish-6{
     background-color: rgb(192, 192, 192);
-    background-image: url('/images/dishes/veg/fried-rice.jpg');
+    background-image: url('images/dishes/veg/fried-rice.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   #veg-menu-dish-7{
     background-color: rgb(192, 192, 192);
-    background-image: url('/images/dishes/veg/panner-pahadi-kabab.jpg');
+    background-image: url('images/dishes/veg/panner-pahadi-kabab.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   #veg-menu-dish-8{
     background-color: rgb(192, 192, 192);
-    background-image: url('/images/dishes/veg/Veg-Hakka-Noodles.jpg');
+    background-image: url('images/dishes/veg/Veg-Hakka-Noodles.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   #veg-menu-dish-9{
     background-color: rgb(192, 192, 192);
-    background-image: url('/images/dishes/veg/veg-seekh-kabab.jpg');
+    background-image: url('images/dishes/veg/veg-seekh-kabab.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   #veg-menu-dish-10{
     background-color: rgb(192, 192, 192);
-    background-image: url('/images/dishes/veg/veg-handi.png');
+    background-image: url('images/dishes/veg/veg-handi.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1350,70 +1350,70 @@ footer{
 }
 #non-veg-menu-dish-1{
   background-color: rgb(192, 192, 192);
-  background-image: url('/images/dishes/nonveg/chicken-tandoori.jpg');
+  background-image: url('images/dishes/nonveg/chicken-tandoori.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #non-veg-menu-dish-2{
   background-color: rgb(192, 192, 192);
-  background-image: url('/images/dishes/nonveg/Butter-Chicken.jpg');
+  background-image: url('images/dishes/nonveg/Butter-Chicken.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #non-veg-menu-dish-3{
   background-color: rgb(192, 192, 192);
-  background-image: url('/images/dishes/nonveg/chichken-reshmi-kabab.jpg');
+  background-image: url('images/dishes/nonveg/chichken-reshmi-kabab.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #non-veg-menu-dish-4{
   background-color: rgb(192, 192, 192);
-  background-image: url('/images/dishes/nonveg/chicken-handi.jpg');
+  background-image: url('images/dishes/nonveg/chicken-handi.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #non-veg-menu-dish-5{
   background-color: rgb(192, 192, 192);
-  background-image: url('/images/dishes/nonveg/Mutton-Dum-Biryani.jpg');
+  background-image: url('images/dishes/nonveg/Mutton-Dum-Biryani.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #non-veg-menu-dish-6{
   background-color: rgb(192, 192, 192);
-  background-image: url('/images/dishes/nonveg/ChickenMasalaFry.jpg');
+  background-image: url('images/dishes/nonveg/ChickenMasalaFry.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #non-veg-menu-dish-7{
   background-color: rgb(192, 192, 192);
-  background-image: url('/images/dishes/nonveg/chicken-alishan.jpg');
+  background-image: url('images/dishes/nonveg/chicken-alishan.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #non-veg-menu-dish-8{
   background-color: rgb(192, 192, 192);
-  background-image: url('/images/dishes/nonveg/chicken-dum-biryani.webp');
+  background-image: url('images/dishes/nonveg/chicken-dum-biryani.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #non-veg-menu-dish-9{
   background-color: rgb(192, 192, 192);
-  background-image: url('/images/dishes/nonveg/mutton-kolhapuri-curry.jpg');
+  background-image: url('images/dishes/nonveg/mutton-kolhapuri-curry.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #non-veg-menu-dish-10{
   background-color: rgb(192, 192, 192);
-  background-image: url('/images/dishes/nonveg/mutton-masala.jpg');
+  background-image: url('images/dishes/nonveg/mutton-masala.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1944,7 +1944,7 @@ footer{
   height: 240px;
   width: 240px;
   background-color: rgb(192, 192, 192);
-  background-image: url('/images/about/ved.jpg');
+  background-image: url('images/about/ved.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
