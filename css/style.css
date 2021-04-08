@@ -1,0 +1,1989 @@
+/* Common Header Footer */
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto',sans-serif;
+    box-shadow: 0px 2px 23px -6px rgba(0, 0, 0, 0.75);
+    height: 100px;
+    background-color: #ffddf5;
+}
+.header{
+    margin: auto;
+    z-index: 2;
+    
+
+}
+
+.stiky-contacts-header{
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    background-color: #ffddf5;
+    color: white;
+    z-index: 2;
+   
+    
+
+}
+
+
+.stiky-header-div{
+    display: grid;
+    grid-template-columns: 25% 40% 20% 15%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+
+.contact-us-div p{
+    color: black;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 7px;
+}
+.contact-us-div  a{
+  color: #4d163e;
+  font-weight: bold;
+  text-decoration: none;
+}
+.hotel-name-div h1{
+  margin-top: -5px;
+  margin-bottom: 5px;
+  color: #4d163e;
+  font-family: 'Sriracha', cursive;
+}
+.social-media-div{
+    padding: 4px;
+}
+.social-media-div img{
+  height: 30px;
+}
+
+.stiky-contacts-header button{
+    background: #4d163e;
+    /* background: linear-gradient(0deg, rgba(184,135,30,1) 0%, rgba(253,187,45,1) 100%); */
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 0px;
+    margin-top: 3px;
+    width: 140px;
+    height: 35px;
+
+}
+
+.stiky-contacts-header button:hover{
+    box-shadow: #ff00bb 0px 2px 14px -4px;
+}
+
+.desktop-navbar{
+  background-color: #ffddf5;
+    color: black;
+    padding-left: 25%;
+    padding-right: 25%;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    z-index: 99;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    gap: 10px;
+}
+
+
+.desktop-navbar ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    list-style: none;
+    margin: auto;
+    text-align: center;
+    padding: 18px;
+
+}
+
+.desktop-navbar li{
+    color: white;
+    text-decoration: none;
+
+}
+.desktop-navbar a{
+    color: black;
+    text-decoration: none;
+}
+.desktop-navbar a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.footer{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.footer-links-and-media{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  background-color: #4d163e;
+  color: white;
+
+}
+
+.footer-link-list{
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  margin-left: 45%;
+  padding: 5px;
+}
+.footer-link-list a{
+  color: white;
+}
+.footer-media-symbols{
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+  margin-right: 75%;
+}
+.footer-media-symbols img{
+  height: 30px;
+}
+.copyright-content p{
+    margin: 15px;
+    margin-left: 30px;
+
+}
+
+
+.mobile-navbar{
+  display: none;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 90px;
+  left: 0;
+  background-color: #4d163e;
+  background-color: rgba(77, 22, 62, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  z-index: 9999;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #cccccc;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+/* Common Header Footer Tab */
+
+@media screen and (max-width: 900px) {
+  header{
+    height: 90px;
+  }
+  
+  .stiky-header-div{
+    display: grid;
+    grid-template-columns: 25% 35% 20% 20%;
+  } 
+  footer{
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  /* Stiky Header */
+  .stiky-contacts-header{
+    width: 100%;
+    height: 35px;
+  }
+
+  .contact-us-div p{
+    color: black;
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    margin: 0px;
+    margin-top: 7px;
+  }
+  .hotel-name-div h1{
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  .social-media-div{
+      padding: 0px;
+      padding-top: 3px;
+  }
+  .social-media-div img{
+    height: 25px;
+  } 
+  .stiky-contacts-header button{
+    
+    font-size: 13px;
+    margin: 0px;
+    margin-top: 3px;
+    width: 100px;
+    height: 28px;
+
+  }
+
+  /* Desktop Navbar */
+  .desktop-navbar{
+    display: none;
+  }
+
+  /* Navingation header */
+
+  .mobile-navbar{
+    display: grid;
+    grid-template-columns: 40% auto;
+    background-color: #ffddf5;
+    color: black;
+    height: 45px;
+    padding-top: 45px;
+  }
+
+  #mobile-nav-icon {
+    width: 45px;
+    height: 35px;
+    position: relative;
+    margin: 2px 0px 0px 10px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+  }
+
+  #mobile-nav-icon {
+  }
+  
+  #mobile-nav-icon span {
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 50%;
+    background: #4d163e;
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+  }
+  
+  #mobile-nav-icon span:nth-child(even) {
+    left: 50%;
+    border-radius: 0 9px 9px 0;
+  }
+  
+  #mobile-nav-icon span:nth-child(odd) {
+    left:0px;
+    border-radius: 9px 0 0 9px;
+  }
+  
+  #mobile-nav-icon span:nth-child(1), #mobile-nav-icon span:nth-child(2) {
+    top: 0px;
+  }
+  
+  #mobile-nav-icon span:nth-child(3), #mobile-nav-icon span:nth-child(4) {
+    top: 12px;
+  }
+  
+  #mobile-nav-icon span:nth-child(5), #mobile-nav-icon span:nth-child(6) {
+    top: 24px;
+  }
+  
+  #mobile-nav-icon.open span:nth-child(1),#mobile-nav-icon.open span:nth-child(6) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  #mobile-nav-icon.open span:nth-child(2),#mobile-nav-icon.open span:nth-child(5) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  
+  #mobile-nav-icon.open span:nth-child(1) {
+    left: 5px;
+    top: 8px;
+  }
+  
+  #mobile-nav-icon.open span:nth-child(2) {
+    left: calc(50% - 5px);
+    top: 8px;
+  }
+  
+  #mobile-nav-icon.open span:nth-child(3) {
+    left: -50%;
+    opacity: 0;
+  }
+  
+  #mobile-nav-icon.open span:nth-child(4) {
+    left: 100%;
+    opacity: 0;
+  }
+  
+  #mobile-nav-icon.open span:nth-child(5) {
+    left: 5px;
+    top: 20px;
+  }
+  
+  #mobile-nav-icon.open span:nth-child(6) {
+    left: calc(50% - 5px);
+    top: 20px;
+  }
+  
+
+    .mobile-nav-logo img{
+      position: relative;
+      top: -35px;
+      z-index: 9999;
+      height: 70px;
+    }
+
+    footer{
+      margin-left: 1%;
+      margin-right: 1%;
+    }
+
+}
+
+
+/* Common Header Footer Mobile */
+
+@media screen and (max-width: 450px) {
+ 
+  .stiky-header-div{
+    display: grid;
+    grid-template-columns: 35% 35% 20%;
+  } 
+  .hotel-name-div{
+    display: none;
+  }
+
+  /* Stiky Header */
+
+  .contact-us-div p{
+    color: black;
+    font-family: 'Roboto',sans-serif;
+    font-size: 9.5px;
+    margin: 0px;
+    margin-top: 5px;
+    text-align: left;
+  }
+  .hotel-name-div h1{
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  .social-media-div{
+      padding: 0px;
+      padding-top: 3px;
+  }
+  .social-media-div img{
+    height: 25px;
+  } 
+  .mobile-nav-logo img{
+    position: relative;
+    top: 0px;
+    z-index: 1;
+    height: 40px;
+    left: 15px;
+  }
+  
+  .footer-links-and-media{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    gap: 0px;
+  
+  }
+  .footer-link-list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin-left: 0%;
+    padding: 5px;
+  }
+  .footer-link-list a{
+    color: white;
+    font-size: 11px
+  }
+  .footer-media-symbols{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    margin-right: 5%;
+    padding-left: 15px;
+
+  }
+  .footer-media-symbols img{
+    height: 25px;
+  }
+  .copyright-content p{
+      margin: -10px 0px 10px 0px;
+      margin-left: 30px;
+      font-size: 12px;
+  }
+
+}
+
+
+@media screen and (max-width: 350px) {
+  .contact-us-div p{
+    font-size: 11px;
+    margin: 0px;
+    margin-top: 5px;
+    text-align: left;
+  }
+  .footer-link-list a{
+    color: white;
+    font-size: 10px
+  }
+  .footer-media-symbols{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    margin-right: 5%;
+    padding-left: 5px;
+
+  }
+  .footer-media-symbols img{
+    height: 23px;
+  }
+  .copyright-content p{
+      margin: -10px 0px 10px 0px;
+      margin-left: 30px;
+      font-size: 12px;
+  }
+
+
+
+}
+
+
+/* Banner Advertisement Section 1 */
+.banner-advertisement-div{
+  padding-top: 2px;
+}
+.swiper-container {
+    width: 100%;
+    height: 70%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+
+  #slide-1{
+    background-color: rgb(192, 192, 192);
+    background-image: url('/images/banner/banner-img-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+  }
+
+  
+  #slide-2{
+    background-color: rgb(173, 173, 173);
+    background-image: url('/images/banner/banner-img-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+  }
+
+
+  
+  #slide-3{
+    background-color: rgb(192, 192, 192);
+    background-image: url('/images/banner/banner-img-3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+  }
+
+  /* Banner Advertisement Section 1 Tab */
+
+  @media screen and (max-width: 900px) {
+    .swiper-container {
+      width: 100%;
+      height: 50%;
+    }
+  }
+
+
+  /* Banner Advertisement Section Mobile */
+
+  @media screen and (max-width: 450px) {
+    .swiper-container {
+      width: 100%;
+      height: 40%;
+    }
+  }
+
+
+
+  /* Best Rate Gaurentee Section -2 */
+
+  .best-rate-gaurrentee-section{
+      margin-left: 10%;
+      margin-right: 10%;
+      padding: 2%;
+  }
+  .best-rate-gaurrentee-div{
+      background-color: rgb(202, 202, 202);
+      padding: 2%;
+      display: grid;
+      grid-template-columns: 75% 25%;
+  }
+
+  .best-rate-gaurrentee-info h1{
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+  }
+
+  .hr-best-rate-gaurrentee{
+      width: 150px;
+      height: 5px;
+      border-radius: 7px;
+      background: #4d163e;
+      background: linear-gradient(0deg, #4d163e 0%, #b34295 100%);
+      border: none;
+      margin-left: 0px;
+  }
+  .best-rate-gaurrentee-info p{
+      font-family: 'Roboto',sans-serif;
+      font-size: 16px;
+  }
+
+  .best-rate-gaurrentee-symbols{
+      padding: 5px;
+      margin: auto;
+  }
+  .best-rate-gaurrentee-symbols img{
+    height: 140px;
+  }
+
+
+  /* Best Rate Gaurentee Section -2 Tab */
+
+  @media screen and (max-width: 900px) {
+    .best-rate-gaurrentee-section{
+      margin-left: 3%;
+      margin-right: 3%;
+      padding: 2%;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .best-rate-gaurrentee-section{
+      margin-left: 1%;
+      margin-right: 1%;
+      padding: 2%;
+    }
+    .best-rate-gaurrentee-div{
+
+      display: grid;
+      grid-template-columns: 65% 35%;
+    }
+    .best-rate-gaurrentee-symbols img{
+      height: 90px;
+    }
+    .best-rate-gaurrentee-info h1{
+      font-size: 1rem;
+    }
+    .hr-best-rate-gaurrentee{
+      width: 120px;
+      height: 4px;
+    }
+    .best-rate-gaurrentee-info p{
+      font-size: 12px;
+    }
+  }
+
+
+
+
+
+
+  /* Room Promotion Section */
+
+  .room-promotions{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 2%;
+  }
+  .room-promotion-div{
+      padding: 2%;
+  }
+  .room-promotion-title h1{
+    font-family: 'Roboto',sans-serif;
+    font-size: 26px;
+    color: black;
+  }
+  .room-promotion-sliding{
+      padding: 0px;
+  }
+  .room-promotion-all-sliding{
+      display: grid;
+      grid-template-columns: 350px 350px 350px;
+      margin-top: 30px;
+      gap: 10px;
+      /* overflow: scroll;
+      overflow-y: hidden; */
+  }
+
+
+.room-promotion-all-sliding::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 20px;
+	background-color: #F5F5F5;
+}
+
+.room-promotion-all-sliding::-webkit-scrollbar
+{
+    margin-top: 20px;
+	  width: 5px;
+    height: 8px;
+    border-radius: 20px;
+	  background-color: #b34295;
+}
+
+.room-promotion-all-sliding::-webkit-scrollbar-thumb
+{
+	border-radius: 20px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #b34295;
+}
+
+  .room-promotion-single-slide{
+      height: 500px;
+      display: grid;
+      grid-template-rows: 75% 25%;
+      /* margin-right: 10px; */
+      margin-bottom: 20px;
+      box-shadow: #666 0px 2px 20px -6px;
+  }
+
+  .slide-image{
+      background-color: rgb(192, 192, 192);
+      
+  }
+  /* Slide Images Bg */
+
+  #slide-image-1{
+      background-color: rgb(192, 192, 192);
+    background-image: url('/images/Rooms/Non_AC_Room.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #slide-image-2{
+      background-color: rgb(192, 192, 192);
+    background-image: url('/images/Rooms/AC_Room.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #slide-image-3{
+      background-color: rgb(192, 192, 192);
+    background-image: url('/images/Rooms/dormitory.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/* Slide images bg END */
+
+  .slide-information{
+      display: grid;
+      grid-template-columns: 70% 30%;
+  }
+  .slide-room-name-and-info{
+      padding: 10px;
+  }
+  .slide-room-name h3{
+      font-family: 'Roboto',sans-serif;
+      font-size: 22px;
+      color: black;
+      margin-top: 10px;
+      margin-bottom: 8px;
+  }
+  .slide-room-info p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    color: rgb(161, 161, 161);
+    margin-top: 20px;
+    margin-bottom: 8px;
+    padding-right:5px ;
+  }
+  .slide-room-capacity-and-price{
+      padding: 2px;
+
+  }
+  .slide-room-capacity p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    color: rgb(161, 161, 161);
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding-right:5px ;
+    text-align: center;
+  }
+  .slide-room-price{
+      text-align: center;
+  }
+  .slide-room-price button{
+      width: 90px;
+      height: 35px;
+      background: #4d163e;
+      background: linear-gradient(0deg, #4d163e 0%, #b34295 100%);
+      color: white;
+      font-family: 'Roboto',sans-serif;
+      font-size: 16px;
+      border: none;
+      outline: none;
+      border-radius: 1px;
+  }
+
+
+  /* Room Promotion Section 3 Tab */
+  @media screen and (max-width: 1300px) {
+    .room-promotion-all-sliding{
+      display: grid;
+      grid-template-columns: 350px 350px 350px;
+      margin-top: 30px;
+      gap: 10px;
+      overflow: scroll;
+      overflow-y: hidden;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .room-promotions{
+      margin-left: 1%;
+      margin-right: 1%;
+      padding: 0%;
+    }
+    .room-promotion-all-sliding{
+      display: grid;
+      grid-template-columns: 350px 350px 350px;
+      margin-top: 30px;
+      gap: 10px;
+      overflow: scroll;
+      overflow-y: hidden;
+    }
+
+  }
+
+  /* Room Promotion Section Mobile */
+
+  @media screen and (max-width: 450px) {
+
+    .room-promotion-title h1{
+      font-family: 'Roboto',sans-serif;
+      font-size: 20px;
+      color: black;
+    }
+    .room-promotion-all-sliding{
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      margin-top: 30px;
+      gap: 10px;
+      overflow: scroll;
+      overflow-y: hidden;
+    }
+    .room-promotion-single-slide{
+      height: 300px;
+      display: grid;
+      grid-template-rows: 75% 25%;
+      /* margin-right: 10px; */
+      margin-bottom: 20px;
+      box-shadow: #666 0px 2px 20px -6px;
+    }
+    .slide-information{
+      display: grid;
+      grid-template-columns: 60% 40%;
+    }
+
+      .slide-room-name-and-info{
+        padding: 5px;
+      }
+      .slide-room-name h3{
+          font-family: 'Roboto',sans-serif;
+          font-size: 14px;
+          color: black;
+          margin-top: 5px;
+          margin-bottom: 6px;
+      }
+      .slide-room-info p{
+        font-family: 'Roboto',sans-serif;
+        font-size: 10px;
+        color: rgb(161, 161, 161);
+        margin-top: 8px;
+        margin-bottom: 8px;
+        padding-right:5px ;
+      }
+      .slide-room-capacity-and-price{
+          padding: 2px;
+
+      }
+      .slide-room-capacity p{
+        font-family: 'Roboto',sans-serif;
+        font-size: 9px;
+        color: rgb(161, 161, 161);
+        margin-top: 10px;
+        margin-bottom: 8px;
+        padding-right:5px ;
+        text-align: center;
+      }
+      .slide-room-price{
+          text-align: center;
+      }
+      .slide-room-price button{
+          width: 60px;
+          height: 25px;
+          background: #4d163e;
+          background: linear-gradient(0deg, #4d163e 0%, #b34295 100%);
+          color: white;
+          font-family: 'Roboto',sans-serif;
+          font-size: 10px;
+          border: none;
+          outline: none;
+          border-radius: 1px;
+      }
+
+  }
+
+
+
+
+  /* Nearby Places Section -4 */
+
+  .nearby-places-section{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 2%;
+  }
+  .nearby-places-div{
+      padding: 2%;
+  }
+  .nearby-places-title h1{
+    font-family: 'Roboto',sans-serif;
+    font-size: 26px;
+    color: black;
+  }
+
+  .nearby-places-all-sliding{
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px 350px 350px;
+    margin-top: 30px;
+    gap:15px ;
+    margin-bottom: 25px;
+    overflow: scroll;
+    overflow-y: hidden;
+    
+  }
+
+   
+    .nearby-places-all-sliding::-webkit-scrollbar-track
+    {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 20px;
+        background-color: #F5F5F5;
+    }
+
+    .nearby-places-all-sliding::-webkit-scrollbar
+    {
+        margin-top: 20px;
+        width: 5px;
+        height: 8px;
+        border-radius: 20px;
+        background-color: #b34295;
+    }
+
+    .nearby-places-all-sliding::-webkit-scrollbar-thumb
+    {
+        border-radius: 20px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #b34295;
+    }
+
+
+
+  .nearby-places-single-slide{
+    height: 500px;
+    display: grid;
+    grid-template-rows: 85% 15%;
+    /* margin-right: 15px; */
+    margin-bottom: 20px;
+    box-shadow: #666 0px 2px 24px -6px;
+  }
+  .nearby-place-slide-img{
+      background-color: rgb(192, 192, 192);
+  }
+
+
+  /* Nearby Places Slide Image  */
+
+  #nearby-place-img-1{
+    background-color: rgb(192, 192, 192);
+    background-image: url('/images/nearbyplaces/lenyadri.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #nearby-place-img-2{
+    background-color: rgb(192, 192, 192);
+    background-image: url('/images/nearbyplaces/shivneri.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #nearby-place-img-3{
+    background-color: rgb(192, 192, 192);
+    background-image: url('/images/nearbyplaces/ozar.jpg');
+    background-position: -70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #nearby-place-img-4{
+    background-color: rgb(192, 192, 192);
+    background-image: url('/images/nearbyplaces/MalshejGhat.jpg');
+    background-position: -130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #nearby-place-img-5{
+    background-color: rgb(192, 192, 192);
+    background-image: url('/images/nearbyplaces/naneghat.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #nearby-place-img-6{
+    background-color: rgb(192, 192, 192);
+    background-image: url('/images/nearbyplaces/PimpalgaonDam.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* Nearby Places Slide Image End */
+
+  .nearby-places-slide-img-name h2{
+    font-family: 'Roboto',sans-serif;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .nearby-places-slide-img-name p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 11px;
+    color: gray;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  
+  /* Nearby Places Section Tab */
+
+  @media screen and (max-width: 900px) {
+    .nearby-places-section{
+      margin-left: 1%;
+      margin-right: 1%;
+      padding: 0%;
+    }
+  }
+
+/* Nearby Section Mobile */
+
+  @media screen and (max-width: 450px) {
+    .nearby-places-title h1{
+      font-family: 'Roboto',sans-serif;
+      font-size: 20px;
+      color: black;
+    }
+    .nearby-places-all-sliding{
+      display: grid;
+      grid-template-columns: 200px 200px 200px 200px 200px 200px;
+      margin-top: 30px;
+      gap:10px ;
+      margin-bottom: 25px;
+      overflow: scroll;
+      overflow-y: hidden;
+    }
+    .nearby-places-single-slide{
+      height: 300px;
+      display: grid;
+      grid-template-rows: 80% 20%;
+      /* margin-right: 15px; */
+      margin-bottom: 20px;
+      box-shadow: #666 0px 2px 24px -6px;
+    }
+
+    #nearby-place-img-3{
+      background-position: -35px;
+    } 
+
+    .nearby-places-slide-img-name h2{
+    
+      font-size: 16px;
+      margin-top: 6px;
+      margin-bottom: 6px;
+    }
+  
+    .nearby-places-slide-img-name p{
+      font-size: 10px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  
+
+  
+
+  }
+
+
+
+
+  
+  /* Moving Menu Section 4 */
+
+  .Menu-card-section{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 2%;
+  }
+
+  .menu-card-div{
+      padding: 2%;
+  }
+
+  .menu-card-title h1{
+    font-family: 'Roboto',sans-serif;
+    font-size: 26px;
+    color: black;
+  }
+
+
+
+  /* Moving menu Section Mobile */
+
+  @media screen and (max-width: 450px) {
+    
+  .menu-card-title h1{
+    font-size: 20px;
+    }
+  }
+
+
+
+  /* Veg Menu Cards */
+
+  .veg-menu-card{
+      padding: 20px;
+      overflow: hidden;
+  }
+  .veg-menu-title h3{
+    font-family: 'Roboto',sans-serif;
+    font-size: 22px;
+    color: black;
+  }
+  .veg-menu-all-cards{
+      display: grid;
+      grid-template-columns: 230px 230px 230px 230px 230px 230px 230px 230px 230px 230px;
+      gap: 10px;
+      margin: 10px;
+      padding: 2%;
+      position: relative;
+      animation: vegmenucards 10s infinite;
+      animation-timing-function: linear;
+      animation-iteration-count:infinite;
+      animation-direction:alternate;
+  }
+  @keyframes vegmenucards {
+    from {right: 1300px;}
+    to {right: 0px;}
+  }
+  .veg-menu-single-card{
+      height: 300px;
+      width: 230px;
+      
+      border-radius: 15px;
+      box-shadow: #666 0px 2px 22px -5px;
+      display: grid;
+      grid-template-rows: 20% 80%;
+      overflow: hidden;
+      
+  }
+  .veg-menu-dish-name{
+      background-color: white;
+  }
+  .veg-menu-dish-name h2{
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+  }
+  .veg-menu-dish-image{
+      background-color: rgb(192, 192, 192);
+  }
+  #veg-menu-dish-1{
+    background-color: rgb(192, 192, 192);
+    background-image: url('/images/dishes/veg/aalu-tikka.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #veg-menu-dish-2{
+    background-color: rgb(192, 192, 192);
+    background-image: url('/images/dishes/veg/mix-veg-.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #veg-menu-dish-3{
+    background-color: rgb(192, 192, 192);
+    background-image: url('/images/dishes/veg/paneer-angara.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #veg-menu-dish-4{
+    background-color: rgb(192, 192, 192);
+    background-image: url('/images/dishes/veg/veg-kolhapuri.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #veg-menu-dish-5{
+    background-color: rgb(192, 192, 192);
+    background-image: url('/images/dishes/veg/paneer-tikka.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #veg-menu-dish-6{
+    background-color: rgb(192, 192, 192);
+    background-image: url('/images/dishes/veg/fried-rice.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #veg-menu-dish-7{
+    background-color: rgb(192, 192, 192);
+    background-image: url('/images/dishes/veg/panner-pahadi-kabab.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #veg-menu-dish-8{
+    background-color: rgb(192, 192, 192);
+    background-image: url('/images/dishes/veg/Veg-Hakka-Noodles.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #veg-menu-dish-9{
+    background-color: rgb(192, 192, 192);
+    background-image: url('/images/dishes/veg/veg-seekh-kabab.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #veg-menu-dish-10{
+    background-color: rgb(192, 192, 192);
+    background-image: url('/images/dishes/veg/veg-handi.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+
+
+/* Non veg Menu Card */
+
+
+
+.non-veg-menu-card{
+    padding: 20px;
+    overflow: hidden;
+}
+.non-veg-menu-title h3{
+  font-family: 'Roboto',sans-serif;
+  font-size: 22px;
+  color: black;
+}
+.non-veg-menu-all-cards{
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px 230px 230px 230px 230px 230px 230px ;
+    margin: 10px;
+    padding: 2%;
+    gap: 10px;
+    position: relative;
+    animation: nonvegmenucards 10s infinite;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+@keyframes nonvegmenucards {
+  from {left: 0px;}
+  to {left: -1300px;}
+}
+.non-veg-menu-single-card{
+    height: 300px;
+    width: 230px;
+    
+    border-radius: 15px;
+    box-shadow: #666 0px 2px 22px -5px;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    overflow: hidden;
+    
+}
+.non-veg-menu-dish-name{
+    background-color: white;
+}
+.non-veg-menu-dish-name h2{
+  font-family: 'Roboto',sans-serif;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+}
+.non-veg-menu-dish-image{
+    background-color: rgb(192, 192, 192);
+}
+#non-veg-menu-dish-1{
+  background-color: rgb(192, 192, 192);
+  background-image: url('/images/dishes/nonveg/chicken-tandoori.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#non-veg-menu-dish-2{
+  background-color: rgb(192, 192, 192);
+  background-image: url('/images/dishes/nonveg/Butter-Chicken.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#non-veg-menu-dish-3{
+  background-color: rgb(192, 192, 192);
+  background-image: url('/images/dishes/nonveg/chichken-reshmi-kabab.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#non-veg-menu-dish-4{
+  background-color: rgb(192, 192, 192);
+  background-image: url('/images/dishes/nonveg/chicken-handi.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#non-veg-menu-dish-5{
+  background-color: rgb(192, 192, 192);
+  background-image: url('/images/dishes/nonveg/Mutton-Dum-Biryani.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#non-veg-menu-dish-6{
+  background-color: rgb(192, 192, 192);
+  background-image: url('/images/dishes/nonveg/ChickenMasalaFry.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#non-veg-menu-dish-7{
+  background-color: rgb(192, 192, 192);
+  background-image: url('/images/dishes/nonveg/chicken-alishan.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#non-veg-menu-dish-8{
+  background-color: rgb(192, 192, 192);
+  background-image: url('/images/dishes/nonveg/chicken-dum-biryani.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#non-veg-menu-dish-9{
+  background-color: rgb(192, 192, 192);
+  background-image: url('/images/dishes/nonveg/mutton-kolhapuri-curry.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#non-veg-menu-dish-10{
+  background-color: rgb(192, 192, 192);
+  background-image: url('/images/dishes/nonveg/mutton-masala.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+  /* Moving Menu section Tab */
+  @media screen and (max-width: 900px) {
+    .Menu-card-section{
+      margin-left: 1%;
+      margin-right: 1%;
+      padding: 0%;
+    }
+    @keyframes vegmenucards {
+      from {right: 1700px;}
+      to {right: 0px;}
+    }
+
+    @keyframes nonvegmenucards {
+      from {left: 0px;}
+      to {left: -1700px;}
+    }
+  }
+
+
+
+  /* Veg Menu Card Mobile */
+
+  @media screen and (max-width: 450px) {
+    .veg-menu-card{
+      padding: 10px;
+  }
+  .veg-menu-title h3{
+    font-size: 17px;
+  }
+  .veg-menu-all-cards{
+      display: grid;
+      grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+      gap: 10px;
+    }
+    @keyframes vegmenucards {
+      from {right: 1300px;}
+      to {right: 0px;}
+    }
+    .veg-menu-single-card{
+        height: 200px;
+        width: 150px;
+    }
+    .veg-menu-dish-name h2{
+      font-size: 13px;
+    }
+
+  }
+
+
+  /* NonVeg Menu Card Mobile */
+
+  @media screen and (max-width: 450px) {
+    
+    .non-veg-menu-card{
+      padding: 10px;
+    }
+    .non-veg-menu-title h3{
+    font-size: 17px;
+    }
+    .non-veg-menu-all-cards{
+      display: grid;
+      grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+      margin: 10px;
+      gap: 10px;
+    }
+    @keyframes nonvegmenucards {
+    from {left: 0px;}
+    to {left: -1300px;}
+    }
+    .non-veg-menu-single-card{
+      height: 200px;
+        width: 150px;
+    }
+    .non-veg-menu-dish-name h2{
+      font-size: 13px;
+    }
+  }
+
+
+
+  /* Customers Reviews Section 5*/
+
+  .customer-review-section{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 2%;
+    background-color: rgb(207, 205, 205);
+  }
+
+  .customer-review-div{
+      padding: 2%;
+  }
+  .customer-review-title h1{
+    font-family: 'Roboto',sans-serif;
+    font-size: 26px;
+    color: black;
+  }
+  .customer-reviews-slides{
+      padding: 0px;
+  }
+
+  .customer-review-all-slide{
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    overflow: scroll;
+    overflow-y: hidden;
+  }
+
+  .customer-review-all-slide::-webkit-scrollbar-track
+  {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      border-radius: 20px;
+      background-color: #F5F5F5;
+  }
+
+  .customer-review-all-slide::-webkit-scrollbar
+  {
+      margin-top: 20px;
+      width: 5px;
+      height: 8px;
+      border-radius: 20px;
+      background-color: #b34295;
+  }
+
+  .customer-review-all-slide::-webkit-scrollbar-thumb
+  {
+      border-radius: 20px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+      background-color: #b34295;
+  }
+
+
+  .customer-review-single-slide{
+      padding: 15px;
+      height: 450px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    box-shadow: #666 0px 2px 24px -4px;
+    background-color: white;
+
+  }
+
+  .customer-review-slide-title h2{
+    font-family: 'Roboto',sans-serif;
+    font-size: 23px;
+    color: black;
+  }
+  .customer-review-slide-star-rating{
+     padding: 2px;
+  }
+  .checked {
+    color: orange;
+  }
+
+  .customer-review-customer-name p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    color: rgb(150, 150, 150);
+    font-weight: 200;
+    padding: 2px;
+  }
+  .hr-customer-review{
+    width: 50px;
+    height: 4px;
+    border-radius: 7px;
+    background: #4d163e;
+    background: linear-gradient(0deg, #4d163e 0%, #b34295 100%);
+    border: none;
+    margin-left: 2px;
+  }
+ .customer-review-quote{
+     padding: 5px;
+     height:240px;
+ }
+ #left-quote{
+     font-size: 18pt;
+     color: #b34295;
+ }
+ #right-quote{
+    font-size: 18pt;
+    color: #b34295;
+    margin-left: 95%;
+ }
+ .customer-review-para{
+     padding: 15px;
+     text-align: center;
+ }
+
+ .customer-review-date{
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    color: rgb(150, 150, 150);
+    font-weight: 200;
+    font-style: italic;
+    margin-left: 70%;
+ }
+
+
+/* Customers Reviews Section 5 Tab*/
+
+ @media screen and (max-width: 900px) {
+  .customer-review-section{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0%;
+    background-color: rgb(207, 205, 205);
+  }
+ }
+
+ /* Customers Reviews Section 5 Mobile */
+
+ @media screen and (max-width: 450px) {
+    .customer-review-title h1{
+      font-size: 20px;
+    }
+    .customer-review-all-slide{
+      display: grid;
+      grid-template-columns: 200px 200px 200px 200px;
+    }
+    .customer-review-single-slide{
+      padding: 8px;
+      height: 300px;
+    }
+    .customer-review-slide-title h2{
+      font-size: 15px;
+      margin: 6px 0px 5px 0px;
+    }
+    .customer-review-slide-star-rating{
+      padding: 2px;
+      font-size: 13px;
+    }
+    .customer-review-customer-name p{
+      font-size: 10px;
+      padding:0px;
+    }
+    .hr-customer-review{
+      width: 50px;
+      height: 3px;
+    }
+    .customer-review-quote{
+      padding: 2px;
+      height:175px;
+    }
+    #left-quote{
+        font-size: 12pt;
+    }
+    #right-quote{
+      font-size: 12pt;
+      margin-left: 95%;
+    }
+    .customer-review-para{
+        padding: 5px;
+        font-size: 11px;
+    }
+  
+    .customer-review-date{
+      font-size: 11px;
+      font-weight: 200;
+      font-style: italic;
+      margin-left: 60%;
+    }
+ 
+
+ }
+
+
+
+
+/* gallery Page */
+
+.gallery-section{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.gallery-div{
+  padding: 2%;
+}
+
+.gallery-title-h1{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: 'Sriracha', cursive;
+  font-size: 32px;
+  color: black;
+  margin-left: 40px;
+}
+
+.tab-btns ul{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding-left: 15px;
+
+}
+
+
+#tabs { margin: 2em; }
+#content { margin: 2em; }
+
+#content2,
+#content3 { display: none; }
+
+#tabs ul{
+  margin-bottom: 10px;
+}
+.tab-btns li{
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  border: 0.5px solid gray;
+  background-color: white;
+  margin-right: 15px;
+  text-align: center;
+  font-size: 16px;
+  padding: 13px 10px 0px 10px;
+}
+
+.tab-btns a{
+  text-decoration: none;
+  color: black
+}
+
+.gallery-tab-buttons a:hover{
+  /* text-decoration: none; */ 
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.column img {
+  margin-top: 16px;
+  vertical-align: middle;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(192, 192, 192);
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+/* Gallery Page Tab */
+
+@media screen and (max-width: 900px) {
+
+  .gallery-section{
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .gallery-title-h1{
+    font-size: 24px;
+    margin: 20px;
+  }
+  
+  .tab-btns ul{
+    padding-left: 6px;
+  
+  }
+  #tabs { margin: 2px; }
+  #content { margin: 2px; }
+
+  .tab-btns li{
+    width: 140px;
+    height: 30px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 14px;
+    padding: 6px 6px 0px 6px;
+  }
+
+}
+
+/* Gallery Mobile */
+  @media screen and (max-width: 450px) {
+  .tab-btns ul{
+    overflow: scroll;
+    overflow-y: hidden;
+    padding-bottom: 10px;
+  }
+    .tab-btns li{
+      width: 140px;
+      height: 30px;
+      margin-right: 10px;
+      text-align: center;
+      font-size: 10px;
+      padding: 12px 18px 0px 18px;
+      
+    }
+    
+    .tab-btns ul::-webkit-scrollbar-track
+    {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 20px;
+        background-color: #F5F5F5;
+    }
+
+    .tab-btns ul::-webkit-scrollbar
+    {
+        margin-top: 20px;
+        width: 5px;
+        height: 5px;
+        border-radius: 20px;
+        background-color: #b34295;
+    }
+
+    .tab-btns ul::-webkit-scrollbar-thumb
+    {
+        border-radius: 20px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #b34295;
+    }
+    
+  }
+
+/* About Page */
+
+.about-owner-section{
+  background-color: #fff1ff;
+  width: 100%;
+  height: auto;
+  /* padding-bottom: 100px; */
+}
+.about-owner-div{
+  
+}
+.owner-image-div{
+  width: 100%;
+  height: 200px;
+  background-color: #4d163e;
+  margin-top: 180px;
+
+}
+
+.owner-img{
+  height: 280px;
+  width: 280px;
+  background-color: rgb(192, 192, 192);
+  background-image: url('/images/about/owner-img.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  position: relative;
+  top: -120px;
+  border-radius: 50%;
+  
+}
+/* Owner Image Shadow */
+.owner-img::before{
+  content: '';
+  position: absolute;
+  top: 115%;    left: 0;
+  width: 100%;   height: 50px;
+  background: rgba(0,0,0,.3);
+  border-radius: 50%;
+  transform: perspective(500px) rotateX(64deg);
+  filter: blur(11px);
+}
+
+
+.owner-information-div{
+  text-align: center;
+  padding: 2%;
+  margin-top: 25px;
+}
+
+.owner-information-div h1{
+  font-family: 'Sriracha', cursive;
+  font-size: 28px;
+}
+.owner-info-hr{
+  text-align: center;
+  width: 120px;
+    height: 5px;
+    border-radius: 7px;
+    background: #4d163e;
+    background: linear-gradient(0deg, #4d163e 0%, #b34295 100%);
+    border: none;
+}
+
+.owner-information-div p{
+    margin: 0 18% 0 18%;
+    padding: 20px;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+}
+
+.ved-information-div{
+  text-align: center;
+  padding: 2%;
+  margin-top: 25px;
+  
+}
+.ved-information-div h1{
+  font-family: 'Sriracha', cursive;
+  font-size: 22px;
+}
+.ved-information-div p{
+  margin: 0 18% 0 18%;
+  padding: 20px;
+  /* background-color: rgba(255, 255, 255, 0.9); */
+}
+
+
+
+/* About Tab */
+
+@media screen and (max-width: 650px) {
+  .owner-information-div p{
+    margin: 0 6% 0 6%;
+    padding: 15px;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+  } 
+  .ved-information-div p{
+    margin: 0 6% 0 6%;
+    padding: 15px;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+  }
+}
+
+
+/* About Mobile */
+
+@media screen and (max-width: 450px) {
+  .owner-information-div p{
+    margin: 0 3% 0 3%;
+    padding: 10px;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+  } 
+  .ved-information-div p{
+    margin: 0 3% 0 3%;
+    padding: 10px;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+  }
+}

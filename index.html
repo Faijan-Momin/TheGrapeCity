@@ -1,0 +1,708 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Grape City | Delightful Resturant You Ever Had</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+
+
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="stiky-contacts-header">
+                <div class="stiky-header-div">
+                    <div class="contact-us-div">
+                        <p>Contact Us - <a href="tel:+917666084072">+91-7666084072</a></p>
+                    </div>
+                    <div class="hotel-name-div">
+                        <h1 class="hotel-name-div-h1">The Grape City</h1>
+                    </div>
+                    <div class="social-media-div">
+                        <a href="#" style="text-decoration: none;"><img src="images/socialmedia/facebook.svg" alt="The Grape City Facebook"> </a>
+                        <a href="https://www.instagram.com/thegrapecity/" style="text-decoration: none;"><img src="images/socialmedia/instagram.svg" alt="The Grape City Instagram"> </a>
+                        <a href="#" style="text-decoration: none;"><img src="images/socialmedia/blogger.svg" alt="The Grape City Blog"> </a>
+                    </div>
+                    
+                    <div class="book-now-div">
+                        <button>Book Now</button>
+                    </div>
+                    
+                </div>
+                 
+            </div>
+            <div class="desktop-navbar">
+                <div class="desktop-nav-logo">
+                    <a href="index.html"><img src="/images/logo/the-grape-city.png" alt="The Grape City Logo" height="50px"></a>
+                </div>
+                <div class="desktop-nav-list">
+                    <ul class="navbar-list">
+                        <li> <a href="index.html"> Home </a> </li>
+                        <li> <a href="gallery.html"> Gallery </a> </li>
+                        <li> <a href="#"> Blog </a> </li>
+                        <li> <a href="about.html"> About </a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mobile-navbar">
+                <div id="mySidenav" class="sidenav">
+                    <!-- <a  class="closebtn" onclick="closeNav()">&times;</a> -->
+                    <a href="index.html"> Home </a>
+                    <a href="gallery.html"> Gallery </a>
+                    <a href="#"> Blog </a>
+                    <a href="about.html"> About </a>
+                </div>
+                <div class="mobile-nav-hamburger">
+                    <div href="javascript:void(0)" id="mobile-nav-icon" onclick="NavSlide()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>                      
+                </div>
+                <div class="mobile-nav-logo">
+                    <a href="index.html"><img src="/images/logo/the-grape-city.png" alt="The Grape City Logo"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section  class="banner-advertisement-div">
+        <div class="banner-advertisement-div">
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div id="slide-1" class="swiper-slide"> <!-- Text Here --> </div>
+                    <div id="slide-2" class="swiper-slide"> <!-- Text Here --> </div>
+                    <div id="slide-3" class="swiper-slide"> <!-- Text Here --> </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="best-rate-gaurrentee-section">
+        <div class="best-rate-gaurrentee-div">
+            <div class="best-rate-gaurrentee-info">
+                <h1>BEST RATE GUARANTEE</h1>
+                <hr class="hr-best-rate-gaurrentee">
+                <p class="best-rate-gaurrentee-p">Make your bookings directly with us for the most seamless experience and the best value. With compelling exclusive offers, and the best rates guaranteed experience our sincere care even before you check in.</p>
+            </div>
+            <div class="best-rate-gaurrentee-symbols">
+                <img  src="/images/logo/the-grape-city.png" alt="The grape city logo">
+            </div>
+        </div>
+    </section>
+
+    <section class="room-promotions">
+        <div class="room-promotion-div">
+            <div class="room-promotion-title">
+                <h1>Rooms & Offers</h1>
+                <hr class="hr-best-rate-gaurrentee">
+            </div>
+            <div class="room-promotion-sliding">
+                <div class="room-promotion-all-sliding">
+                    <div class="room-promotion-single-slide">
+                        <div onclick="window.location.href='gallery.html'" id="slide-image-1" class="slide-image">
+                            <!-- Image is Addes through css bg  -->
+                        </div>
+                        <div class="slide-information">
+                            <div class="slide-room-name-and-info">
+                                <div class="slide-room-name">
+                                    <h3>Non AC Room</h3>
+                                </div>
+                                <div class="slide-room-info">
+                                    <p>For Extra bed - ₹ 300 </p>
+                                </div>
+                            </div>
+                            <div class="slide-room-capacity-and-price">
+                                <div class="slide-room-capacity">
+                                    <p>2 Persons</p>
+                                </div>
+                                <div class="slide-room-price">
+                                    <button disabled="disabled">₹ 1300/-</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Second Slide -->
+                    <div class="room-promotion-single-slide">
+                        <div onclick="window.location.href='gallery.html'"  id="slide-image-2" class="slide-image">
+                            <!-- Image is Addes through css bg  -->
+                        </div>
+                        <div class="slide-information">
+                            <div class="slide-room-name-and-info">
+                                <div class="slide-room-name">
+                                    <h3>AC Room</h3>
+                                </div>
+                                <div class="slide-room-info">
+                                    <p>For Extra bed - ₹ 300 </p>
+                                </div>
+                            </div>
+                            <div class="slide-room-capacity-and-price">
+                                <div class="slide-room-capacity">
+                                    <p>2 Persons</p>
+                                </div>
+                                <div class="slide-room-price">
+                                    <button disabled="disabled">₹ 1700/-</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Third SLide -->
+                    <div class="room-promotion-single-slide">
+                        <div onclick="window.location.href='gallery.html'"  id="slide-image-3" class="slide-image">
+                            <!-- Image is Addes through css bg  -->
+                        </div>
+                        <div class="slide-information">
+                            <div class="slide-room-name-and-info">
+                                <div class="slide-room-name">
+                                    <h3>Dormitory - Non AC</h3>
+                                </div>
+                                <div class="slide-room-info">
+                                    <!-- <p>Book direct through our website and avail exclusive savings on stay and more.</p> -->
+                                </div>
+                            </div>
+                            <div class="slide-room-capacity-and-price">
+                                <div class="slide-room-capacity">
+                                    <p>8 Persons</p>
+                                </div>
+                                <div class="slide-room-price">
+                                    <button disabled="disabled">₹ 3300/-</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Section 3 Nearby Places -->
+    <section class="nearby-places-section">
+        <div class="nearby-places-div">
+            <div class="nearby-places-title">
+                <h1>NearBy Places</h1>
+                <hr class="hr-best-rate-gaurrentee">
+            </div>
+            <div class="neadby-places-slides">
+                <div class="nearby-places-all-sliding">
+                    <!-- Image 1 -->
+                    <div class="nearby-places-single-slide">
+                        <div id="nearby-place-img-1" class="nearby-place-slide-img">
+                            <!-- Image is set through Css bg -->
+                        </div>
+                        <div class="nearby-places-slide-img-name">
+                            <h2>Lenyadri</h2>
+                            <p>4 KM</p>
+                        </div>
+                    </div>
+                    <!-- Image 2 -->
+                    <div class="nearby-places-single-slide">
+                        <div id="nearby-place-img-2" class="nearby-place-slide-img">
+                            <!-- Image is set through Css bg -->
+                        </div>
+                        <div class="nearby-places-slide-img-name">
+                            <h2>Shivneri</h2>
+                            <p>8 KM</p>
+                        </div>
+                    </div>
+                    <!-- Image 3 -->
+                    <div class="nearby-places-single-slide">
+                        <div id="nearby-place-img-3" class="nearby-place-slide-img">
+                            <!-- Image is set through Css bg -->
+                        </div>
+                        <div class="nearby-places-slide-img-name">
+                            <h2>Ozar</h2>
+                            <p>12 KM</p>
+                        </div>
+                    </div>
+                    <!-- Image 4 -->
+                    <div class="nearby-places-single-slide">
+                        <div id="nearby-place-img-4" class="nearby-place-slide-img">
+                            <!-- Image is set through Css bg -->
+                        </div>
+                        <div class="nearby-places-slide-img-name">
+                            <h2>Malshej ghat</h2>
+                            <p>28 KM</p>
+                        </div>
+                    </div>
+                    <!-- Image 5 -->
+                    <div class="nearby-places-single-slide">
+                        <div id="nearby-place-img-5" class="nearby-place-slide-img">
+                            <!-- Image is set through Css bg -->
+                        </div>
+                        <div class="nearby-places-slide-img-name">
+                            <h2>Naneghat</h2>
+                            <p>32 KM</p>
+                        </div>
+                    </div>
+                    <!-- Image 6 -->
+                    <div class="nearby-places-single-slide">
+                        <div id="nearby-place-img-6" class="nearby-place-slide-img">
+                            <!-- Image is set through Css bg -->
+                        </div>
+                        <div class="nearby-places-slide-img-name">
+                            <h2>Pimpalgaon Dam</h2>
+                            <p>25 KM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Menu-card-section">
+        <div class="menu-card-div">
+            <div class="menu-card-title">
+                <h1>Our Menu</h1>
+                <hr class="hr-best-rate-gaurrentee">
+            </div>
+            <div class="veg-menu-card">
+                <div class="veg-menu-title">
+                    <h3>Veg</h3>
+                    <hr class="hr-customer-review">
+                </div>
+                <div class="veg-menu-all-cards">
+                    <div class="veg-menu-single-card">
+                        <div class="veg-menu-dish-name">
+                            <h2>Aalu Tikka</h2>
+                        </div>
+                        <div id="veg-menu-dish-1" class="veg-menu-dish-image">
+                            <!-- Image is set through css bg -->
+                        </div>
+                    </div>
+
+                    <!-- Veg dish 2 -->
+                    <div class="veg-menu-single-card">
+                        <div class="veg-menu-dish-name">
+                            <h2>Mix Veg</h2>
+                        </div>
+                        <div id="veg-menu-dish-2" class="veg-menu-dish-image">
+                            <!-- Image is set through css bg -->
+                        </div>
+                    </div>
+                    
+                    <!-- Veg dish 3 -->
+                    <div class="veg-menu-single-card">
+                        <div class="veg-menu-dish-name">
+                            <h2>Paneer Angara</h2>
+                        </div>
+                        <div id="veg-menu-dish-3" class="veg-menu-dish-image">
+                            <!-- Image is set through css bg -->
+                        </div>
+                    </div>
+                    
+                    <!-- Veg dish 4 -->
+                    <div class="veg-menu-single-card">
+                        <div class="veg-menu-dish-name">
+                            <h2>Veg Kolhapuri</h2>
+                        </div>
+                        <div id="veg-menu-dish-4" class="veg-menu-dish-image">
+                            <!-- Image is set through css bg -->
+                        </div>
+                    </div>
+                    
+                    <!-- Veg dish 5 -->
+                    <div class="veg-menu-single-card">
+                        <div class="veg-menu-dish-name">
+                            <h2>Paneer Tikka</h2>
+                        </div>
+                        <div id="veg-menu-dish-5" class="veg-menu-dish-image">
+                            <!-- Image is set through css bg -->
+                        </div>
+                    </div>
+                    
+                    <!-- Veg dish 6 -->
+                    <div class="veg-menu-single-card">
+                        <div class="veg-menu-dish-name">
+                            <h2>Fried Rice</h2>
+                        </div>
+                        <div id="veg-menu-dish-6" class="veg-menu-dish-image">
+                            <!-- Image is set through css bg -->
+                        </div>
+                    </div>
+
+                    <!-- Veg dish 7 -->
+                    <div class="veg-menu-single-card">
+                        <div class="veg-menu-dish-name">
+                            <h2>Paneer Pahadi Kabab</h2>
+                        </div>
+                        <div id="veg-menu-dish-7" class="veg-menu-dish-image">
+                            <!-- Image is set through css bg -->
+                        </div>
+                    </div>
+                    
+                    <!-- Veg dish 8 -->
+                    <div class="veg-menu-single-card">
+                        <div class="veg-menu-dish-name">
+                            <h2>Veg Hakka Noodles</h2>
+                        </div>
+                        <div id="veg-menu-dish-8" class="veg-menu-dish-image">
+                            <!-- Image is set through css bg -->
+                        </div>
+                    </div>
+                    <!-- Veg dish 9 -->
+                    <div class="veg-menu-single-card">
+                        <div class="veg-menu-dish-name">
+                            <h2>Veg Seekh Kabab</h2>
+                        </div>
+                        <div id="veg-menu-dish-9" class="veg-menu-dish-image">
+                            <!-- Image is set through css bg -->
+                        </div>
+                    </div>
+                    
+                    <!-- Veg dish 10 -->
+                    <div class="veg-menu-single-card">
+                        <div class="veg-menu-dish-name">
+                            <h2>Veg Handi</h2>
+                        </div>
+                        <div id="veg-menu-dish-10" class="veg-menu-dish-image">
+                            <!-- Image is set through css bg -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="non-veg-menu-card">
+                <div class="non-veg-menu-title">
+                    <h1>Non-Veg</h1>
+                    <hr class="hr-customer-review">
+                </div>
+                <div class="non-veg-menu-all-cards">
+                    
+                    <!-- Nonveg Dish 1 -->
+                    <div class="non-veg-menu-single-card">
+                        <div class="non-veg-menu-dish-name">
+                            <h2>Chicken Tandoori</h2>
+                        </div>
+                        <div id="non-veg-menu-dish-1" class="non-veg-menu-dish-image">
+                            <!-- Image is set through css bg -->
+                        </div>
+                    </div>
+                    
+                    <!-- Nonveg Dish 2 -->
+                    <div class="non-veg-menu-single-card">
+                        <div class="non-veg-menu-dish-name">
+                            <h2>Butter Chicken</h2>
+                        </div>
+                        <div id="non-veg-menu-dish-2" class="non-veg-menu-dish-image">
+                            <!-- Image is set through css bg -->
+                        </div>
+                    </div>
+                    
+                    <!-- Nonveg Dish 3 -->
+                    <div class="non-veg-menu-single-card">
+                        <div class="non-veg-menu-dish-name">
+                            <h2>Chicken Reshmi Kabab</h2>
+                        </div>
+                        <div id="non-veg-menu-dish-3" class="non-veg-menu-dish-image">
+                            <!-- Image is set through css bg -->
+                        </div>
+                    </div>
+                    
+                    <!-- Nonveg Dish 4 -->
+                    <div class="non-veg-menu-single-card">
+                        <div class="non-veg-menu-dish-name">
+                            <h2>Chicken Handi</h2>
+                        </div>
+                        <div id="non-veg-menu-dish-4" class="non-veg-menu-dish-image">
+                            <!-- Image is set through css bg -->
+                        </div>
+                    </div>
+                    
+                    <!-- Nonveg Dish 5 -->
+                    <div class="non-veg-menu-single-card">
+                        <div class="non-veg-menu-dish-name">
+                            <h2>Mutton Dum Biryani</h2>
+                        </div>
+                        <div id="non-veg-menu-dish-5" class="non-veg-menu-dish-image">
+                            <!-- Image is set through css bg -->
+                        </div>
+                    </div>
+                    
+                    <!-- Nonveg Dish 6 -->
+                    <div class="non-veg-menu-single-card">
+                        <div class="non-veg-menu-dish-name">
+                            <h2>Chicken Masala Fry</h2>
+                        </div>
+                        <div id="non-veg-menu-dish-6" class="non-veg-menu-dish-image">
+                            <!-- Image is set through css bg -->
+                        </div>
+                    </div>
+                    
+                    <!-- Nonveg Dish 7 -->
+                    <div class="non-veg-menu-single-card">
+                        <div class="non-veg-menu-dish-name">
+                            <h2>Chicken Alishan</h2>
+                        </div>
+                        <div id="non-veg-menu-dish-7" class="non-veg-menu-dish-image">
+                            <!-- Image is set through css bg -->
+                        </div>
+                    </div>
+                    
+                    <!-- Nonveg Dish 8 -->
+                    <div class="non-veg-menu-single-card">
+                        <div class="non-veg-menu-dish-name">
+                            <h2>Chicken Dum Biryani</h2>
+                        </div>
+                        <div id="non-veg-menu-dish-8" class="non-veg-menu-dish-image">
+                            <!-- Image is set through css bg -->
+                        </div>
+                    </div>
+                    
+                    <!-- Nonveg Dish 9 -->
+                    <div class="non-veg-menu-single-card">
+                        <div class="non-veg-menu-dish-name">
+                            <h2>Mutton Kolhapuri</h2>
+                        </div>
+                        <div id="non-veg-menu-dish-9" class="non-veg-menu-dish-image">
+                            <!-- Image is set through css bg -->
+                        </div>
+                    </div>
+                    
+                    <!-- Nonveg Dish 10 -->
+                    <div class="non-veg-menu-single-card">
+                        <div class="non-veg-menu-dish-name">
+                            <h2>Mutton Masala</h2>
+                        </div>
+                        <div id="non-veg-menu-dish-10" class="non-veg-menu-dish-image">
+                            <!-- Image is set through css bg -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Section 4 Coustomer reviews -->
+
+    <section class="customer-review-section">
+        <div class="customer-review-div">
+            <div class="customer-review-title">
+                <h1>Customer Reviews</h1>
+                <hr class="hr-best-rate-gaurrentee">
+            </div>
+            <div class="customer-reviews-slides">
+                <div class="customer-review-all-slide">
+                    <div class="customer-review-single-slide">
+                        <div class="customer-review-slide-title">
+                            <h2>Quality Food</h2>
+                        </div>
+                        <div class="customer-review-slide-star-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                        <div class="customer-review-customer-name">
+                            <p>M. Saeed Pathan</p>
+                            <hr class="hr-customer-review">
+                        </div>
+                        <div class="customer-review-quote">
+                            <i id="left-quote" class="fa fa-quote-left" aria-hidden="true"></i>
+                                <div class="customer-review-para">
+                                    <p>This cozy restaurant has left the best impressions! Hospitable hosts, delicious dishes, beautiful presentation, wide wine list and wonderful dessert. I recommend to everyone! I would like to come back here again and again.</p>
+                                </div>
+                            <i id="right-quote" class="fa fa-quote-right" aria-hidden="true"></i>
+                        </div>
+                        <div class="customer-review-date">
+                            <p>18 Mar 2021</p>
+                        </div>
+                    </div>
+
+                    <!-- 3 Customer Review -->
+                    <div class="customer-review-single-slide">
+                        <div class="customer-review-slide-title">
+                            <h2>Great Resturant</h2>
+                        </div>
+                        <div class="customer-review-slide-star-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                        <div class="customer-review-customer-name">
+                            <p>Sandip Gadhve</p>
+                            <hr class="hr-customer-review">
+                        </div>
+                        <div class="customer-review-quote">
+                            <i id="left-quote" class="fa fa-quote-left" aria-hidden="true"></i>
+                                <div class="customer-review-para">
+                                    <p>It’s a great experience. The ambiance is very welcoming and charming. Amazing wines, food and service. Staff are extremely knowledgeable and make great recommendations.</p>
+                                </div>
+                            <i id="right-quote" class="fa fa-quote-right" aria-hidden="true"></i>
+                        </div>
+                        <div class="customer-review-date">
+                            <p>1 Apr 2021</p>
+                        </div>
+                    </div>
+
+                    <!-- 3 Customer Review -->
+                    <div class="customer-review-single-slide">
+                        <div class="customer-review-slide-title">
+                            <h2>Excellent Food</h2>
+                        </div>
+                        <div class="customer-review-slide-star-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="customer-review-customer-name">
+                            <p>Krushna Waykar</p>
+                            <hr class="hr-customer-review">
+                        </div>
+                        <div class="customer-review-quote">
+                            <i id="left-quote" class="fa fa-quote-left" aria-hidden="true"></i>
+                                <div class="customer-review-para">
+                                    <p>Excellent food. Menu is extensive and seasonal to a particularly high standard. Definitely fine dining. It can be expensive but worth it and they do different deals on different nights so it’s worth checking them out before you book. Highly recommended.</p>
+                                </div>
+                            <i id="right-quote" class="fa fa-quote-right" aria-hidden="true"></i>
+                        </div>
+                        <div class="customer-review-date">
+                            <p>25 Mar 2021</p>
+                        </div>
+                    </div>
+                    <!-- 4 Customer Review -->
+                    <div class="customer-review-single-slide">
+                        <div class="customer-review-slide-title">
+                            <h2>Lovely Restuarant</h2>
+                        </div>
+                        <div class="customer-review-slide-star-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star "></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="customer-review-customer-name">
+                            <p>Dhananjay Gadekar</p>
+                            <hr class="hr-customer-review">
+                        </div>
+                        <div class="customer-review-quote">
+                            <i id="left-quote" class="fa fa-quote-left" aria-hidden="true"></i>
+                                <div class="customer-review-para">
+                                    <p>Do yourself a favor and visit this lovely restaurant in. The service is unmatched. The staff truly cares about your experience.</p>
+                                </div>
+                            <i id="right-quote" class="fa fa-quote-right" aria-hidden="true"></i>
+                        </div>
+                        <div class="customer-review-date">
+                            <p>11 Mar 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer">
+            <hr>
+            <div class="footer-links-and-media">
+                <div class="footer-links">
+                    <ul class="footer-link-list">
+                        <li><a href="tel:+917666084072">Contact Us</a></li>
+                        <li><a href="https://goo.gl/maps/L7CEDEsCfWcRpJWf6#">Way to Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-media">
+                    <ul class="footer-media-symbols">
+                        <li> <a href="#" style="text-decoration: none;"><img src="images/socialmedia/facebook.svg" alt="The Grape City Facebook"> </a>  </li> 
+                        <li> <a href="https://www.instagram.com/thegrapecity/" style="text-decoration: none;"><img src="images/socialmedia/instagram.svg" alt="The Grape City Instagram"> </a>  </li> 
+                        <li> <a href="#" style="text-decoration: none;"><img src="images/socialmedia/blogger.svg" alt="The Grape City Bolgs"> </a>    </li> 
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            
+        </div>
+        <div class="copyright-content">
+            <p>©2021 The Grape City Hotel. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script>
+       var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
+
+
+    $(document).ready(function(){
+	$('#mobile-nav-icon').click(function(){
+		$(this).toggleClass('open');
+	});
+});
+
+    $(document).scroll(function() {
+        var y = $(this).scrollTop();
+        if (window.matchMedia('(max-width: 900px)').matches) {
+            if (y > 80) {
+                $('.hotel-name-div-h1').fadeIn();
+            } else {
+                $('.hotel-name-div-h1').fadeOut();
+            }
+        } 
+    });
+
+
+    function NavSlide(){
+        if(document.getElementById("mySidenav").style.width == "250px"){
+            closeNav();
+        }
+        else{
+            openNav();
+        }
+    }
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.body.style.position = 'fixed';
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.body.style.position = '';
+    }
+    </script>
+
+
+
+    
+    <script src="js/script.js"></script>
+</body>
+<!-- <img src="https://marketing.dcassetcdn.com/blog/2018/December/35-purple-logos/Fresh.jpg" alt="The Grape City Logo" height="300px" > -->
+
+</html>
+
