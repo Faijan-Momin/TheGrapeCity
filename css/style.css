@@ -3,6 +3,7 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 0px;
+    background-color: white;
 }
 header{
     margin: 0px;
@@ -554,7 +555,7 @@ footer{
 
   #slide-1{
     background-color: rgb(192, 192, 192);
-    background-image: url('/images/banner/banner-img-1.jpg');
+    background-image: url('https://prod.store.digiboxx.com:9000/373493e6b7e14149/faijanmomin99%40gmail.com/Pictures/TheGrapeCity/706939_banner-img-1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aazxcdklmnghfg%2F20210410%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210410T130537Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=1f3cad4ebf1cb8b900dd0573134fed7d7ec67993ccc03a8f51f098737fc7e21b');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -564,7 +565,7 @@ footer{
   
   #slide-2{
     background-color: rgb(173, 173, 173);
-    background-image: url('/images/banner/banner-img-2.jpg');
+    background-image: url('https://prod.store.digiboxx.com:9000/373493e6b7e14149/faijanmomin99%40gmail.com/Pictures/TheGrapeCity/498570_banner-img-2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aazxcdklmnghfg%2F20210410%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210410T130812Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=19db816e1ceaec10b6306fb9383dd16905176c004e93a01884319609b9256a06');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -575,7 +576,7 @@ footer{
   
   #slide-3{
     background-color: rgb(192, 192, 192);
-    background-image: url('/images/banner/banner-img-3.jpg');
+    background-image: url('https://prod.store.digiboxx.com:9000/373493e6b7e14149/faijanmomin99%40gmail.com/Pictures/TheGrapeCity/976075_banner-img-3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aazxcdklmnghfg%2F20210410%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210410T130450Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f00585d0c6efe8aa27565647da3bc7b81ca33302cf94289d1fe3d96f57e7e480');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1399,7 +1400,7 @@ footer{
 }
 #non-veg-menu-dish-8{
   background-color: rgb(192, 192, 192);
-  background-image: url('/images/dishes/nonveg/chicken-dum-biryani.webp');
+  background-image: url('images/dishes/nonveg/chicken-dum-biryani.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
