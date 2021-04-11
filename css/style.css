@@ -64,11 +64,82 @@ header{
   font-family: 'Sriracha', cursive;
 }
 .social-media-div{
-    padding: 4px;
+    padding: 0px;
+    margin-top: -3px;
 }
-.social-media-div img{
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.ir {
+  display: block;
+  overflow: visible;
+  padding: 0 0 100%;
+  position: relative;
+  height: 0;
+  width: 100%;
+}
+
+.ir > * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+.soc {
+  display: block;
+  font-size: 0;
+  list-style: none;
+  text-align: center;
+  max-width: 100%;
+  padding-left: 0px;
+}
+.soc li {
+  display: inline-block;
+  margin: 5px;
+}
+.soc a, .soc svg {
+  display: block;
+}
+.soc a {
   height: 30px;
+  width: 30px;
 }
+
+ .icon-31:hover, .icon-15:hover,  .icon-10:hover {
+  border-radius: 100%;
+  fill: white;
+  transform: scale(1.25);
+  transition: background-color 0.5s, transform 0.5s ease-out;
+}
+
+
+.icon-10 {
+  fill: #4d163e;
+}
+.icon-10:hover {
+  background: #4d163e;
+}
+
+.icon-15 {
+  fill: #4d163e;
+}
+.icon-15:hover {
+  background: #4d163e;
+}
+
+.icon-31 {
+  fill: #4d163e;
+}
+.icon-31:hover {
+  background: #4d163e;
+}
+
 
 .stiky-contacts-header button{
     background: #4d163e;
@@ -153,7 +224,7 @@ footer{
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 10px;
-  margin-left: 45%;
+  margin-left: 15%;
   padding: 5px;
 }
 .footer-link-list a{
@@ -164,7 +235,7 @@ footer{
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 5px;
-  margin-right: 75%;
+  margin-right:5%;
 }
 .footer-media-symbols img{
   height: 30px;
@@ -174,6 +245,57 @@ footer{
     margin-left: 30px;
 
 }
+footer .soc {
+  display: block;
+  font-size: 0;
+  list-style: none;
+  text-align: center;
+  max-width: 100%;
+  margin-right: 45%;
+  padding: 5px;
+}
+footer .icon-31:hover{
+  border-radius: 100%;
+  fill: #4d163e;
+  transform: scale(1.25);
+  transition: background-color 0.5s, transform 0.5s ease-out;
+}
+footer .icon-15:hover{
+  border-radius: 100%;
+  fill: #4d163e;
+  transform: scale(1.25);
+  transition: background-color 0.5s, transform 0.5s ease-out;
+}
+footer .icon-10:hover {
+  border-radius: 100%;
+  fill: #4d163e;
+  transform: scale(1.25);
+  transition: background-color 0.5s, transform 0.5s ease-out;
+}
+
+
+footer .icon-10 {
+  fill: white;
+}
+footer .icon-10:hover {
+  background: white;
+}
+
+footer .icon-15 {
+  fill: white;
+}
+footer .icon-15:hover {
+  background: white;
+}
+
+footer .icon-31 {
+  fill: white;
+}
+footer .icon-31:hover {
+  background: white;
+}
+
+
 
 
 .mobile-navbar{
@@ -233,7 +355,7 @@ footer{
   
   .stiky-header-div{
     display: grid;
-    grid-template-columns: 25% 35% 20% 20%;
+    grid-template-columns: 25% 30% 25% 20%;
   } 
   footer{
     margin-left: 3%;
@@ -261,11 +383,10 @@ footer{
   }
   .social-media-div{
       padding: 0px;
-      padding-top: 3px;
+      margin-top: -3px;
+      padding-top: 0px;
   }
-  .social-media-div img{
-    height: 25px;
-  } 
+
   .stiky-contacts-header button{
     
     font-size: 13px;
@@ -406,6 +527,14 @@ footer{
       margin-left: 1%;
       margin-right: 1%;
     }
+    .footer-link-list{
+      list-style: none;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 10px;
+      margin-left: 15%;
+      padding: 5px;
+    }
 
 }
 
@@ -440,11 +569,10 @@ footer{
   }
   .social-media-div{
       padding: 0px;
-      padding-top: 3px;
+      margin-top: -3px;
+      padding-top: 0px;
   }
-  .social-media-div img{
-    height: 25px;
-  } 
+ 
   .mobile-nav-logo img{
     position: relative;
     top: 0px;
@@ -465,6 +593,7 @@ footer{
     gap: 10px;
     margin-left: 0%;
     padding: 5px;
+    margin-top: 5px;
   }
   .footer-link-list a{
     color: white;
@@ -488,6 +617,20 @@ footer{
       font-size: 12px;
   }
 
+  .footer .soc a {
+    height: 20px;
+    width: 20px;
+  }
+  footer .soc {
+    display: block;
+    font-size: 0;
+    list-style: none;
+    text-align: center;
+    max-width: 100%;
+    margin-right: 0%;
+    padding: 5px;
+  }
+  
 }
 
 
@@ -497,6 +640,9 @@ footer{
     margin: 0px;
     margin-top: 5px;
     text-align: left;
+  }
+  .footer-link-list{
+    margin-top: 5px;
   }
   .footer-link-list a{
     color: white;
@@ -518,6 +664,7 @@ footer{
       margin: -10px 0px 10px 0px;
       margin-left: 30px;
       font-size: 12px;
+
   }
 
 
@@ -2094,11 +2241,10 @@ header{
   font-family: 'Sriracha', cursive;
 }
 .social-media-div{
-    padding: 4px;
+    padding: 0px;
+    margin-top: -3px;
 }
-.social-media-div img{
-  height: 30px;
-}
+
 
 .stiky-contacts-header button{
     background: #4d163e;
@@ -2183,7 +2329,7 @@ footer{
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 10px;
-  margin-left: 45%;
+  margin-left: 10%;
   padding: 5px;
 }
 .footer-link-list a{
@@ -2291,11 +2437,10 @@ footer{
   }
   .social-media-div{
       padding: 0px;
-      padding-top: 3px;
+      margin-top: -3px;
+      padding-top: 0px;
   }
-  .social-media-div img{
-    height: 25px;
-  } 
+ 
   .stiky-contacts-header button{
     
     font-size: 13px;
@@ -2470,11 +2615,10 @@ footer{
   }
   .social-media-div{
       padding: 0px;
-      padding-top: 3px;
+      margin-top: -3px;
+      padding-top: 0px;
   }
-  .social-media-div img{
-    height: 25px;
-  } 
+   
   .mobile-nav-logo img{
     position: relative;
     top: 0px;
@@ -3403,7 +3547,7 @@ footer{
 }
 #non-veg-menu-dish-4{
   background-color: rgb(192, 192, 192);
-  background-image: url('https://prod.store.digiboxx.com:9000/373493e6b7e14149/faijanmomin99%40gmail.com/Pictures/849048_chicken-handi.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aazxcdklmnghfg%2F20210409%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210409T124123Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=ef72ff159f732ee260f10205bbab34698bff0a89a16c127727591852467300e2');
+  background-image: url('https://prod.store.digiboxx.com:9000/1f7f6dad42f24ebb/7starkmarketing%40gmail.com/Pictures/TheGrapeCity/dishes/nonveg/940627_chicken-handi.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aazxcdklmnghfg%2F20210411%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210411T110059Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=9f86a3fd830382840044c5383ab513f7ab32431d45c59fc0d9bae431c099b1f3');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
