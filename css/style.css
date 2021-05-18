@@ -703,7 +703,7 @@ footer .icon-31:hover {
 
   #slide-1{
     background-color: rgb(192, 192, 192);
-    background-image: url('https://prod.store.digiboxx.com:9000/1f7f6dad42f24ebb/7starkmarketing%40gmail.com/Pictures/TheGrapeCity/banner/141253_banner-img-1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aazxcdklmnghfg%2F20210413%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210413T062603Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e21f8f55c7f56f7b8b0e72f0b072914aaa70ad960c16e8c2fe63ad9efd4b923b');
+    background-image: url('../images/banner/banner-img-1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -713,7 +713,7 @@ footer .icon-31:hover {
   
   #slide-2{
     background-color: rgb(173, 173, 173);
-    background-image: url('https://prod.store.digiboxx.com:9000/1f7f6dad42f24ebb/7starkmarketing%40gmail.com/Pictures/TheGrapeCity/banner/692314_banner-img-2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aazxcdklmnghfg%2F20210413%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210413T062827Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d505849cdc8a740dc72b06afb81e5d9a1ca4d78a0228b992cae671b6f7856681');
+    background-image: url('../images/banner/banner-img-2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -724,7 +724,7 @@ footer .icon-31:hover {
   
   #slide-3{
     background-color: rgb(192, 192, 192);
-    background-image: url('https://prod.store.digiboxx.com:9000/1f7f6dad42f24ebb/7starkmarketing%40gmail.com/Pictures/TheGrapeCity/banner/928109_banner-img-3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=aazxcdklmnghfg%2F20210413%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210413T062902Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=d40abdab3026b454530574e5ab48b730c65cb729ca771bc35315e4f8da8550c1');
+    background-image: url('../images/banner/banner-img-3.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
